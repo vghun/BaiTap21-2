@@ -30,7 +30,7 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.bai2_switch);
+        setContentView(R.layout.bai2);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.constrain_layout), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             Switch sw = (Switch) findViewById(R.id.switch1);

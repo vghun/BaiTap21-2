@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.bt3_93"
+    namespace = "com.example.tuan3_loginregister"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.bt3_93"
+        applicationId = "com.example.tuan3_loginregister"
         minSdk = 27
         targetSdk = 34
         versionCode = 1
@@ -29,9 +29,6 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
-    buildFeatures {
-        viewBinding = true
-    }
 }
 
 dependencies {
@@ -40,8 +37,6 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
-    implementation(libs.navigation.fragment)
-    implementation(libs.navigation.ui)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)

@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "BT3_93"
+rootProject.name = "Tuan3_LoginRegister"
 include(":app")
  

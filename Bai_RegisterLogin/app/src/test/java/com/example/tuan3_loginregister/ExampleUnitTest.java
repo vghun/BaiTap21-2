@@ -1,4 +1,4 @@
-package com.example.bt3_93;
+package com.example.tuan3_loginregister;
 
 import org.junit.Test;
 

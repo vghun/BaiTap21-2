@@ -21,31 +21,31 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
-            <!-- Con 1 (Xanh dương) -->
+            <!-- Con 1 (Cam) -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:background="#0000FF">
+                android:background="#FFA500">
                 <TextView
                     android:text="01"
-                    android:textColor="#FF0000"
+                    android:textColor="#FFFFFF"
                     android:textSize="20sp"
                     android:layout_height="match_parent"
                     android:layout_width="match_parent"
                     android:gravity="center"/>
             </LinearLayout>
 
-            <!-- Con 2 (Xanh lá) -->
+            <!-- Con 2 (Hồng) -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:background="#00FF00"
+                android:background="#FF69B4"
                 android:gravity="center">
                 <TextView
                     android:text="02"
-                    android:textColor="#FF0000"
+                    android:textColor="#FFFFFF"
                     android:textSize="20sp"
                     android:layout_height="match_parent"
                     android:layout_width="match_parent"
@@ -61,48 +61,48 @@
             android:layout_weight="2"
             android:orientation="vertical">
 
-            <!-- Con 1 (Tím) -->
+            <!-- Con 1 (Đỏ tươi) -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:background="#800080"
+                android:background="#FF6347"
                 android:gravity="center">
                 <TextView
                     android:text="03"
-                    android:textColor="#FF0000"
+                    android:textColor="#FFFFFF"
                     android:textSize="20sp"
                     android:layout_height="match_parent"
                     android:layout_width="match_parent"
                     android:gravity="center"/>
             </LinearLayout>
 
-            <!-- Con 2 (Xanh lá) -->
+            <!-- Con 2 (Lục lam) -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:background="#00FF00"
+                android:background="#20B2AA"
                 android:gravity="center">
                 <TextView
                     android:text="04"
-                    android:textColor="#FF0000"
+                    android:textColor="#FFFFFF"
                     android:textSize="20sp"
                     android:layout_height="match_parent"
                     android:layout_width="match_parent"
                     android:gravity="center"/>
             </LinearLayout>
 
-            <!-- Con 3 (Xanh đậm) -->
+            <!-- Con 3 (Nâu) -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:background="#000080"
+                android:background="#A52A2A"
                 android:gravity="center">
                 <TextView
                     android:text="05"
-                    android:textColor="#FF0000"
+                    android:textColor="#FFFFFF"
                     android:textSize="20sp"
                     android:layout_height="match_parent"
                     android:layout_width="match_parent"
@@ -118,12 +118,12 @@
             android:layout_weight="3"
             android:orientation="vertical">
 
-            <!-- Con 1 (Đỏ) -->
+            <!-- Con 1 (Vàng đậm) -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="8"
-                android:background="#FF0000"
+                android:background="#FFD700"
                 android:gravity="top|center">
                 <TextView
                     android:text="06"
@@ -134,15 +134,15 @@
                     android:gravity="top"/>
             </LinearLayout>
 
-            <!-- Con 2 (Xanh dương) -->
+            <!-- Con 2 (Xanh lá cây đậm) -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="2"
-                android:background="#0000FF"
+                android:background="#006400"
                 android:gravity="top|center">
                 <TextView
-                    android:text="06"
+                    android:text="07"
                     android:textColor="#FFFFFF"
                     android:textSize="30sp"
                     android:layout_height="match_parent"
@@ -151,17 +151,17 @@
             </LinearLayout>
         </LinearLayout>
 
-        <!-- Layout 4 (Vàng) -->
+        <!-- Layout 4 (Tím) -->
         <LinearLayout
             android:id="@+id/layout4"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.8"
-            android:background="#FFFF00"
+            android:background="#8A2BE2"
             android:gravity="top|center">
             <TextView
-                android:text="07"
-                android:textColor="#FF0000"
+                android:text="08"
+                android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 android:layout_height="match_parent"
                 android:layout_width="match_parent"
