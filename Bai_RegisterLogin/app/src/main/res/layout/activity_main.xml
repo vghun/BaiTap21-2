@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/main_layout"
         android:layout_width="409dp"
@@ -21,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Welcome \nBack"
-            android:textColor="#FF9900"
+            android:textColor="#4CAF50"
             android:textSize="50dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -36,6 +35,7 @@
             android:ems="10"
             android:hint="Email"
             android:inputType="textEmailAddress"
+            android:textColorHint="#8E8E8E"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.08"
@@ -51,18 +51,13 @@
             android:ems="10"
             android:hint="Password"
             android:inputType="textPassword"
+            android:textColorHint="#8E8E8E"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.08"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.795" />
-
-        <!-- Button đăng nhập bằng Facebook -->
-
-        <!-- Button đăng nhập bằng Google -->
-
-        <!-- TextView mở giao diện đăng ký -->
 
         <ImageButton
             android:id="@+id/imageButton"
